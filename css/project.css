@@ -1,0 +1,41 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url(../images/Artboard\ 1-100.jpg);
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+}
+header{
+    margin: 10px 20px;
+}
+header .top{
+    display: flex;
+    justify-content: space-between;
+}
+header .top .logo img{
+    width: 100px;
+}
+
+header .top ul li{
+    display: inline-flex;
+    margin-left: 5px;
+    color: red;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+/* ------------------ */
